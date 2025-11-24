@@ -1,0 +1,50 @@
+{
+    "name": "@rankonelabs/circom-build-tools",
+    "version": "0.1.0",
+    "description": "Config-driven build and test tools for circom circuits",
+    "main": "index.js",
+    "bin": {
+        "circom-compile": "./bin/circom-compile.js",
+        "circom-test": "./bin/circom-test.js",
+        "circom-list": "./bin/circom-list.js",
+        "circom-init": "./bin/circom-init.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "circom",
+        "zkSNARK",
+        "zero-knowledge",
+        "build-tools",
+        "groth16",
+        "zk-proof"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/circom-build-tools.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/circom-build-tools/issues"
+    },
+    "homepage": "https://github.com/yourusername/circom-build-tools#readme",
+    "peerDependencies": {
+        "snarkjs": "^0.7.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "files": [
+        "bin/",
+        "lib/",
+        "templates/",
+        "README.md",
+        "LICENSE"
+    ]
+}

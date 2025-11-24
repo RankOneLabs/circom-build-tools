@@ -1,0 +1,8 @@
+# Test files
+test/
+*.test.js
+examples/
+
+# Development
+.vscode/
+.idea/

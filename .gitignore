@@ -1,0 +1,21 @@
+# node_modules/
+*.log
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+.env.local
+
+# Circom build artifacts
+*.r1cs
+*.sym
+*.zkey
+*.wtns
+*_js/
+proof.json
+public.json
+witness.wtns
+
+# Test files
+test_input*.json

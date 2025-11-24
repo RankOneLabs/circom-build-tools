@@ -1,0 +1,39 @@
+{
+    "circuits": [
+        {
+            "name": "my-circuit",
+            "displayName": "My Circuit",
+            "dir": "circuits/my-circuit",
+            "mainFile": "main.circom",
+            "ptauSize": 18,
+            "description": "Description of your circuit",
+            "constraints": "~100k",
+            "contributionSeed": "my-seed"
+        }
+    ],
+    "paths": {
+        "nodeModules": "./node_modules",
+        "ptauDir": "./circuits",
+        "circuitsRoot": "./circuits"
+    },
+    "ptau": {
+        "baseUrl": "https://storage.googleapis.com/zkevm/ptau/",
+        "filePattern": "powersOfTau28_hez_final_{size}.ptau"
+    },
+    "groth16": {
+        "protocol": "groth16",
+        "rsa": {
+            "n": 121,
+            "k": 17
+        }
+    },
+    "deploy": {
+        "targets": {
+            "web": {
+                "wasmDir": "./web/public/",
+                "zkeyDir": "./web/public/",
+                "vkeyDir": "./web/lib/"
+            }
+        }
+    }
+}
