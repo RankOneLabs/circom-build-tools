@@ -1,13 +1,14 @@
 {
     "name": "@rankonelabs/circom-build-tools",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Config-driven build and test tools for circom circuits",
     "main": "index.js",
     "bin": {
         "circom-compile": "./bin/circom-compile.js",
         "circom-test": "./bin/circom-test.js",
         "circom-list": "./bin/circom-list.js",
-        "circom-init": "./bin/circom-init.js"
+        "circom-init": "./bin/circom-init.js",
+        "circom-contribute": "./bin/circom-contribute.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,12 +25,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/circom-build-tools.git"
+        "url": "https://github.com/RankOneLabs/circom-build-tools.git"
     },
     "bugs": {
-        "url": "https://github.com/yourusername/circom-build-tools/issues"
+        "url": "https://github.com/RankOneLabs/circom-build-tools/issues"
     },
-    "homepage": "https://github.com/yourusername/circom-build-tools#readme",
+    "homepage": "https://github.com/RankOneLabs/circom-build-tools#readme",
     "peerDependencies": {
         "snarkjs": "^0.7.0"
     },

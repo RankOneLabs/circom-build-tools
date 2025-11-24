@@ -137,6 +137,19 @@ circom-test auth
 3. Generate proof (timed)
 4. Verify proof (timed)
 
+### `circom-contribute <input_ptau> <output_ptau> [name]`
+Add your random contribution to a Powers of Tau ceremony.
+
+```bash
+circom-contribute powersOfTau28_hez_final_18.ptau my_contribution_18.ptau "Alice"
+```
+
+**What it does:**
+- Takes an existing ptau file
+- Asks you to provide random entropy
+- Creates a new ptau file with your contribution
+- Allows participation in trusted setup ceremonies
+
 **Output:**
 ```
 ===================================================================
@@ -202,7 +215,7 @@ circom-compile voting  # Compile voting circuit
 
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/circom-build-tools.git
+git clone https://github.com/RankOneLabs/circom-build-tools.git
 cd circom-build-tools
 
 # Link locally
