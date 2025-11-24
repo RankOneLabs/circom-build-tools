@@ -1,6 +1,6 @@
 {
     "name": "@rankonelabs/circom-build-tools",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Config-driven build and test tools for circom circuits",
     "main": "index.js",
     "bin": {
